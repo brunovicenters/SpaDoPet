@@ -3,7 +3,7 @@
 Criado como um trabalho acadêmico para o Serviço Nacional de Aprendizagem do Comércio (Senac),
 como avaliação para o 1º Semestre do Tecnólogo em Sistemas para Internet.
 
-![Banner](assets/bannerOssosLogo.png)
+![Banner](assets/bannerOssosLogo.webp)
 
 ## Sobre
 
