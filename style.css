@@ -11,6 +11,8 @@ body {
 
 p {
   font-family: "Comic Neue", cursive;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 .azTurq {
@@ -30,15 +32,44 @@ h2 {
   width: 40%;
   height: 14px;
   background-image: linear-gradient(to right, #F4E7D4, #4084C1, #F4E7D4);
-
-
 }
 
 .tamanhoFonte {
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .letraFonte {
   font-family: "Comic Neue", cursive;
-  font-weight: 700;
+  font-weight: bold;
+}
+
+.nomeFuncionarios {
+  font-family: "Comic Neue", cursive;
+  font-size: 34px;
+
+}
+
+.barbara {
+  display: flex;
+  justify-content: center;
+
+}
+
+.textoFuncionarios {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.descricao {
+  width: 70%;
+}
+
+.fotoFuncionarios {
+  width: 250px;
+  height: 250px;
+}
+
+.margemFotoBa {
+  margin-top: 8%;
+  margin-right: 15%;
 }
