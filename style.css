@@ -34,34 +34,39 @@ h2 {
   background-image: linear-gradient(to right, #F4E7D4, #4084C1, #F4E7D4);
 }
 
-.tamanhoFonte {
-  font-size: 60px;
-}
 
-.letraFonte {
+.tituloSec {
+  font-size: 60px;
   font-family: "Comic Neue", cursive;
   font-weight: bold;
 }
 
+
+
 .nomeFuncionarios {
   font-family: "Comic Neue", cursive;
   font-size: 34px;
-
 }
 
-.barbara {
+.infoFunc {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
 
 }
 
 .textoFuncionarios {
   margin-left: 15%;
   margin-top: 5%;
+  display: inline;
 }
 
 .descricao {
-  width: 70%;
+  width: 40%;
+  text-align: justify;
+  margin-right: 0;
 }
 
 .fotoFuncionarios {
@@ -70,10 +75,28 @@ h2 {
 }
 
 .margemFotoBa {
-  margin-top: 8%;
-  margin-right: 15%;
+  margin-left: 10%;
+}
+
+.margemFotoWel {
+  margin-right: 10%;
 }
 
 .centralizar p {
   font-size: 25px;
+}
+
+#nomeBa {
+  position: absolute;
+  left: 15%;
+}
+
+#nomeWel {
+  position: absolute;
+  right: 15%;
+}
+
+.funcionario {
+  position: relative;
+  margin-top: 5%;
 }
