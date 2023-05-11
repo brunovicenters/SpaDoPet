@@ -19,7 +19,7 @@ p {
   color: #4084c1;
 }
 
-.titulo {
+.centralizar {
   text-align: center;
 }
 
@@ -72,4 +72,8 @@ h2 {
 .margemFotoBa {
   margin-top: 8%;
   margin-right: 15%;
+}
+
+.centralizar p {
+  font-size: 25px;
 }
