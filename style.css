@@ -5,3 +5,98 @@
 
 /* font-family: "Funny Kid"; */
 /* font-family: "Comic Neue", cursive; */
+body {
+  background-color: #f4e7d4;
+}
+
+p {
+  font-family: "Comic Neue", cursive;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.azTurq {
+  color: #4084c1;
+}
+
+.centralizar {
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+.sublinhado {
+  display: inline-block;
+  width: 40%;
+  height: 14px;
+  background-image: linear-gradient(to right, #F4E7D4, #4084C1, #F4E7D4);
+}
+
+
+.tituloSec {
+  font-size: 60px;
+  font-family: "Comic Neue", cursive;
+  font-weight: bold;
+}
+
+
+
+.nomeFuncionarios {
+  font-family: "Comic Neue", cursive;
+  font-size: 34px;
+}
+
+.infoFunc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+
+}
+
+.textoFuncionarios {
+  margin-left: 15%;
+  margin-top: 5%;
+  display: inline;
+}
+
+.descricao {
+  width: 40%;
+  text-align: justify;
+  margin-right: 0;
+}
+
+.fotoFuncionarios {
+  width: 250px;
+  height: 250px;
+}
+
+.margemFotoBa {
+  margin-left: 10%;
+}
+
+.margemFotoWel {
+  margin-right: 10%;
+}
+
+.centralizar p {
+  font-size: 25px;
+}
+
+#nomeBa {
+  position: absolute;
+  left: 15%;
+}
+
+#nomeWel {
+  position: absolute;
+  right: 15%;
+}
+
+.funcionario {
+  position: relative;
+  margin-top: 5%;
+}

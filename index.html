@@ -1,111 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Spa do Pet</title>
-  </head>
-  <body>
-    <!-- Header/Menu -->
-    <header>
-      <img src="assets/menuBG.webp" alt="Fundo do menu" />
-      <img src="assets/sdpImgT.webp" alt="Logo em Letras" />
-      <nav>
-        <ul>
-          <li>Serviços</li>
-          <li>Quem Somos</li>
-          <li>Localização</li>
-        </ul>
-      </nav>
-    </header>
-    <!-- Banner -->
-    <section>
-      <img src="assets/bannerOssosLogo.webp" />
-      <img src="assets/bannerPromo.webp" />
-      <img src="assets/bannerComments2.webp" />
-    </section>
-    <!-- Serviços -->
-    <h2>Serviços</h2>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <title>Spa do Pet</title>
+</head>
+
+<body>
+  <!-- Header/Menu -->
+  <header>
+    <img src="assets/menuBG.webp" alt="Fundo do menu" />
+    <img src="assets/sdpImgT.webp" alt="Logo em Letras" />
+    <nav>
+      <ul>
+        <li>Serviços</li>
+        <li>Quem Somos</li>
+        <li>Localização</li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Banner -->
+  <section>
+    <img src="assets/bannerOssosLogo.webp" />
+    <img src="assets/bannerPromo.webp" />
+    <img src="assets/bannerComments2.webp" />
+  </section>
+  <!-- Serviços -->
+  <div class="centralizar">
+    <h2 class="azTurq tituloSec">Serviços</h2>
     <div class="sublinhado"></div>
-    <section>
-      <img src="assets/banho.webp" alt="Imagem de um cachorro tomando banho" />
-      <h3>Banho</h3>
-      <p>R$ 30,00</p>
-      <p>
-        Um banho com os melhores shampoos e condicionadores para os melhores
-        pets!
-      </p>
-    </section>
-    <section>
-      <h3>Tosa</h3>
-      <p>R$ 35,00</p>
-      <p>
-        Umas tosa completa feita por funcionários qualificados e amantes de
-        pets!
-      </p>
-      <img src="assets/tosa.webp" alt="Imagem de um cachorro sendo tosado" />
-    </section>
-    <section>
-      <img
-        src="assets/massagem.webp"
-        alt="Imagem de um cachorro sendo massageado"
-      />
-      <h3>Massagem</h3>
-      <p>R$ 40,00</p>
-      <p>
-        Uma massagem relaxante e confortável para o seu pet se sentir em um
-        verdadeiro spa!
-      </p>
-    </section>
-    <!-- Quem somos -->
+  </div>
+  <section>
+    <img src="assets/banho.webp" alt="Imagem de um cachorro tomando banho" />
+    <h3>Banho</h3>
+    <p>R$ 30,00</p>
+    <p>
+      Um banho com os melhores shampoos e condicionadores para os melhores
+      pets!
+    </p>
+  </section>
+  <section>
+    <h3>Tosa</h3>
+    <p>R$ 35,00</p>
+    <p>
+      Umas tosa completa feita por funcionários qualificados e amantes de
+      pets!
+    </p>
+    <img src="assets/tosa.webp" alt="Imagem de um cachorro sendo tosado" />
+  </section>
+  <section>
+    <img src="assets/massagem.webp" alt="Imagem de um cachorro sendo massageado" />
+    <h3>Massagem</h3>
+    <p>R$ 40,00</p>
+    <p>
+      Uma massagem relaxante e confortável para o seu pet se sentir em um
+      verdadeiro spa!
+    </p>
+  </section>
+  <!-- Quem somos -->
+  <section id="quemSomos">
     <img src="assets/ondas.webp" />
-    <h2>Quem Somos</h2>
-    <div class="sublinhado"></div>
-    <section>
-      <h3>Bárbara</h3>
-      <p>
-        Profissional de banho e tosa desde 2018 e massagista de pets desde 2020.
-        Amante de pets, sempre buscando o conforto e o bem-estar dos mesmos,
-        dando banhos e fazendo massagens com todo o cuidado e carinho do mundo.
-      </p>
-      <img src="assets/barbara.webp" />
+    <div class="centralizar">
+      <h2 class="azTurq tituloSec">Quem Somos</h2>
+      <div class="sublinhado"></div>
+    </div>
+    <section class="funcionario">
+      <h3 id="nomeBa" class="azTurq nomeFuncionarios">Bárbara</h3>
+      <div class="infoFunc">
+        <p class="descricao">
+          &nbsp;&nbsp;Profissional de banho e tosa desde 2018 e massagista de pets desde
+          2020. Amante de pets, sempre buscando o conforto e o bem-estar dos
+          mesmos, dando banhos e fazendo massagens com todo o cuidado e carinho
+          do mundo.
+        </p>
+        <img class="fotoFuncionarios margemFotoBa" src="assets/barbara.webp" />
+      </div>
     </section>
-    <section>
-      <img src="assets/welton.webp" />
-      <h3>Welton</h3>
-      <p>
-        Inspirado por sua amada esposa,também entrou no mundo dos
-        pets,trabalhando com banho e tosa desde 2019,sempre com um sorriso em
-        seurosto,por trabalhar com o que ama.
-      </p>
+    <section class="funcionario">
+      <h3 id="nomeWel" class="azTurq nomeFuncionarios">Welton</h3>
+      <div class="infoFunc">
+        <img class="fotoFuncionarios margemFotoWel" src="assets/welton.webp" />
+        <p class="descricao">
+          &nbsp;&nbsp;Inspirado por sua amada esposa, também entrou no mundo dos
+          pets, trabalhando com banho e tosa desde 2019, sempre com um sorriso em
+          seu rosto, por trabalhar com o que ama.
+        </p>
+      </div>
     </section>
-    <!-- Localização -->
-    <h2>Localização</h2>
+  </section>
+  <!-- Localização -->
+  <div class="centralizar">
+    <h2 class="azTurq tituloSec">Localização</h2>
     <div class="sublinhado"></div>
-    <div>
-      <section>
-        <img src="assets/frenteLoja.webp" />
-        <img src="assets/interiorLoja.webp" />
-        <img src="assets/banhoLoja.webp" />
-      </section>
+  </div>
+  <div>
+    <section>
+      <img src="assets/frenteLoja.webp" />
+      <img src="assets/interiorLoja.webp" />
+      <img src="assets/banhoLoja.webp" />
+    </section>
+    <div class="centralizar">
       <p>Avenida Interlagos&#44; 871 &#45; 04661&#45;100</p>
       <p>Bloco 05</p>
     </div>
-    <!-- Footer/Contatos -->
-    <img src="assets/ondas.webp" alt="Ondas" />
-    <footer>
-      <img src="assets/logoZap.webp" alt="Logo do Whatsapp" />
-      <p>&#43; 55 11 99603&#45;3110</p>
-      <img src="assets/logoInsta.webp" alt="Logo do Instagram" />
-      <p>&#64;SPADOPET</p>
-    </footer>
-  </body>
+  </div>
+  <!-- Footer/Contatos -->
+  <img src="assets/ondas.webp" alt="Ondas" />
+  <footer>
+    <img src="assets/logoZap.webp" alt="Logo do Whatsapp" />
+    <p>&#43; 55 11 99603&#45;3110</p>
+    <img src="assets/logoInsta.webp" alt="Logo do Instagram" />
+    <p>&#64;SPADOPET</p>
+  </footer>
+</body>
+
 </html>
