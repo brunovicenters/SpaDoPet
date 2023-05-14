@@ -3,10 +3,48 @@
   src: url(fonts/funnykid/FunnyKid.ttf);
 }
 
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  10% {
+    transform: translateX(0%);
+  }
+  20% {
+    transform: translateX(0%);
+  }
+  30% {
+    transform: translateX(-100%);
+  }
+  40% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  60% {
+    transform: translateX(-200%);
+  }
+  70% {
+    transform: translateX(-200%);
+  }
+  80% {
+    transform: translateX(-200%);
+  }
+  90% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
 /* font-family: "Funny Kid"; */
 /* font-family: "Comic Neue", cursive; */
 body {
   background-color: #f4e7d4;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
@@ -19,14 +57,18 @@ p {
   font-weight: bold;
 }
 
+input[type="radio"] {
+  display: none;
+}
+
 #nomeBa {
   position: absolute;
-  left: 15%;
+  left: 18%;
 }
 
 #nomeWel {
   position: absolute;
-  right: 15%;
+  right: 18%;
 }
 
 #fotoBa {
@@ -35,6 +77,48 @@ p {
 
 #fotoWel {
   margin-right: 10%;
+}
+
+#localizacao {
+  margin-top: 5%;
+}
+
+#endereco {
+  margin-top: 1%;
+  padding-top: 3%;
+  background-color: #8eb8de;
+  height: 600px;
+}
+
+#carousel {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+#item-1:checked ~ .cards #img-3,
+#item-2:checked ~ .cards #img-1,
+#item-3:checked ~ .cards #img-2 {
+  transform: translatex(-40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #img-2,
+#item-2:checked ~ .cards #img-3,
+#item-3:checked ~ .cards #img-1 {
+  transform: translatex(40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #img-1,
+#item-2:checked ~ .cards #img-2,
+#item-3:checked ~ .cards #img-3 {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
 }
 
 .sublinhado {
@@ -56,6 +140,90 @@ p {
 
 .centralizar {
   text-align: center;
+}
+
+.ondas {
+  position: absolute;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider .wrapper {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slider .slider-holder {
+  display: grid;
+  grid-template-columns: repeat(3, 100%);
+  height: 100%;
+  animation: slide 15s ease infinite;
+}
+
+.slider #slider-image-1 {
+  width: 100%;
+}
+
+.slider #slider-image-2 {
+  width: 100%;
+}
+
+.slider #slider-image-3 {
+  width: 100%;
+}
+
+.slider .button-holder {
+  position: absolute;
+  bottom: 2%;
+  left: 45%;
+}
+
+.slider .button-holder .dots {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: brown;
+  margin: 0.4rem 0.3rem;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  10% {
+    transform: translateX(0%);
+  }
+  20% {
+    transform: translateX(0%);
+  }
+  30% {
+    transform: translateX(-100%);
+  }
+  40% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  60% {
+    transform: translateX(-200%);
+  }
+  70% {
+    transform: translateX(-200%);
+  }
+  80% {
+    transform: translateX(-200%);
+  }
+  90% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 .funcionario {
@@ -85,6 +253,43 @@ p {
 .fotoFuncionarios {
   width: 250px;
   height: 250px;
+}
+
+.containerCar {
+  width: 100%;
+  max-width: 800px;
+  max-height: 600px;
+  height: 100%;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.card {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+
+.imgCar {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .centralizar p {
