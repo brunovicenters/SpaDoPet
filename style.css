@@ -9,31 +9,44 @@ body {
   background-color: #f4e7d4;
 }
 
+h2 {
+  margin: 0;
+}
+
 p {
   font-family: "Comic Neue", cursive;
   font-size: 17px;
   font-weight: bold;
 }
 
-.azTurq {
-  color: #4084c1;
+#nomeBa {
+  position: absolute;
+  left: 15%;
 }
 
-.centralizar {
-  text-align: center;
+#nomeWel {
+  position: absolute;
+  right: 15%;
 }
 
-h2 {
-  margin: 0;
+#fotoBa {
+  margin-left: 10%;
+}
+
+#fotoWel {
+  margin-right: 10%;
 }
 
 .sublinhado {
   display: inline-block;
   width: 40%;
   height: 14px;
-  background-image: linear-gradient(to right, #F4E7D4, #4084C1, #F4E7D4);
+  background-image: linear-gradient(to right, #f4e7d4, #4084c1, #f4e7d4);
 }
 
+.azTurq {
+  color: #4084c1;
+}
 
 .tituloSec {
   font-size: 60px;
@@ -41,7 +54,14 @@ h2 {
   font-weight: bold;
 }
 
+.centralizar {
+  text-align: center;
+}
 
+.funcionario {
+  position: relative;
+  margin-top: 5%;
+}
 
 .nomeFuncionarios {
   font-family: "Comic Neue", cursive;
@@ -54,13 +74,6 @@ h2 {
   align-items: center;
   flex-wrap: wrap;
   position: relative;
-
-}
-
-.textoFuncionarios {
-  margin-left: 15%;
-  margin-top: 5%;
-  display: inline;
 }
 
 .descricao {
@@ -74,29 +87,6 @@ h2 {
   height: 250px;
 }
 
-.margemFotoBa {
-  margin-left: 10%;
-}
-
-.margemFotoWel {
-  margin-right: 10%;
-}
-
 .centralizar p {
   font-size: 25px;
-}
-
-#nomeBa {
-  position: absolute;
-  left: 15%;
-}
-
-#nomeWel {
-  position: absolute;
-  right: 15%;
-}
-
-.funcionario {
-  position: relative;
-  margin-top: 5%;
 }
