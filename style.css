@@ -61,6 +61,21 @@ input[type="radio"] {
   display: none;
 }
 
+footer {
+  position: relative;
+  padding: 3% 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > p {
+  font-family: "Funny Kid";
+  margin-left: 1%;
+  color: #892020;
+  font-size: 1.5em;
+}
+
 #nomeBa {
   position: absolute;
   left: 18%;
@@ -69,6 +84,18 @@ input[type="radio"] {
 #nomeWel {
   position: absolute;
   right: 18%;
+}
+
+#quemSomos {
+  position: relative;
+}
+
+#ondaQS {
+  top: -30%;
+}
+
+#ondaF {
+  top: -26.8vh;
 }
 
 #fotoBa {
@@ -87,7 +114,7 @@ input[type="radio"] {
   margin-top: 1%;
   padding-top: 3%;
   background-color: #8eb8de;
-  height: 600px;
+  height: 100vh;
 }
 
 #carousel {
@@ -121,6 +148,14 @@ input[type="radio"] {
   z-index: 1;
 }
 
+#textoZap {
+  padding-right: 5%;
+}
+
+#logoInsta {
+  padding-left: 5%;
+}
+
 .sublinhado {
   display: inline-block;
   width: 40%;
@@ -144,6 +179,7 @@ input[type="radio"] {
 
 .ondas {
   position: absolute;
+  width: 100%;
 }
 
 .slider {
@@ -152,7 +188,7 @@ input[type="radio"] {
 
 .slider .wrapper {
   width: 100%;
-  height: 80vh;
+  height: 82vh;
   overflow: hidden;
 }
 
@@ -294,4 +330,8 @@ input[type="radio"] {
 
 .centralizar p {
   font-size: 25px;
+}
+
+.logoSocial {
+  width: 4%;
 }
