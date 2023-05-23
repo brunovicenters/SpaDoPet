@@ -71,11 +71,11 @@ footer {
 }
 
 footer > p {
-  font-family: "Funny Kid";
-  letter-spacing: 0.1em;
+  font-family: "Funny Kid", cursive;
   margin-left: 1%;
   color: #892020;
   font-size: 1.5em;
+  font-weight: 200;
 }
 
 nav {
@@ -155,13 +155,6 @@ nav {
   z-index: 1;
 }
 
-#textoZap {
-  padding-right: 5%;
-}
-
-#logoInsta {
-  padding-left: 5%;
-}
 #imagFundo {
   position: absolute;
   top: -22%;
@@ -169,6 +162,7 @@ nav {
   z-index: auto;
   opacity: 0.5;
 }
+
 #logotext {
   width: 25vw;
   z-index: 1;
@@ -176,6 +170,7 @@ nav {
   top: 30px;
   left: 50px;
 }
+
 #mainMenu {
   list-style: none;
   display: flex;
@@ -183,6 +178,7 @@ nav {
   left: 55%;
   top: -60px;
 }
+
 #mainMenu li {
   font-family: "Comic Neue", cursive;
   font-size: 1.5em;
@@ -195,33 +191,45 @@ nav {
   text-decoration: none;
   color: #892020;
 }
+
 #services {
   background-color: #8eb8de;
   margin-top: 2%;
   padding-bottom: 8%;
 }
+
 #imgBanho {
   display: flex;
   justify-content: flex-end;
 }
+
 #imgTosa {
   display: flex;
   justify-content: flex-start;
 }
+
 #imgMassagem {
   display: flex;
   justify-content: flex-end;
 }
+
 #massagem {
   padding-bottom: 2%;
 }
+
 #banho {
   padding-top: 2%;
 }
+
+#gap {
+  width: 3%;
+}
+
 .aba {
   display: flex;
   gap: 1%;
 }
+
 .imgServ {
   width: 50%;
 }
