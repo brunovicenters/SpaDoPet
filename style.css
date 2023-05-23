@@ -78,7 +78,7 @@ footer > p {
   font-size: 1.5em;
 }
 
-nav{
+nav {
   display: flex;
   position: relative;
 }
@@ -162,99 +162,99 @@ nav{
 #logoInsta {
   padding-left: 5%;
 }
-#imagFundo{
+#imagFundo {
   position: absolute;
   top: -22%;
   width: 100%;
   z-index: auto;
+  opacity: 0.5;
 }
-#logotext{
+#logotext {
   width: 25vw;
   z-index: 1;
   position: relative;
   top: 30px;
   left: 50px;
-
 }
-#mainMenu{
+#mainMenu {
   list-style: none;
   display: flex;
   position: absolute;
   left: 55%;
   top: -60px;
 }
-#mainMenu li{
-  font-family: "Comic Neue";
-  font-size: 18px;
+#mainMenu li {
+  font-family: "Comic Neue", cursive;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
 #mainMenu a {
-	display:block;
-	padding:25px;
-	text-decoration:none;
-	color:#892020;
+  display: block;
+  padding: 25px;
+  text-decoration: none;
+  color: #892020;
 }
-#services{
-  background-color: #8EB8DE;
+#services {
+  background-color: #8eb8de;
   margin-top: 2%;
   padding-bottom: 8%;
 }
-#imgBanho{
+#imgBanho {
   display: flex;
   justify-content: flex-end;
 }
-#imgTosa{
+#imgTosa {
   display: flex;
   justify-content: flex-start;
 }
-#imgMassagem{
+#imgMassagem {
   display: flex;
   justify-content: flex-end;
 }
-#massagem{
+#massagem {
   padding-bottom: 2%;
 }
-#banho{
-  padding-top:2%;
+#banho {
+  padding-top: 2%;
 }
-.aba{
+.aba {
   display: flex;
   gap: 1%;
 }
-.imgServ{
+.imgServ {
   width: 50%;
 }
 
-.textServ{
+.textServ {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.texTosa{
+.texTosa {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:flex-end;
+  align-items: flex-end;
   width: 80%;
 }
 
-.preco{
+.preco {
   margin: 0;
   font-family: "Funny Kid";
   font-weight: 200;
 }
-.descServ{
+.descServ {
   margin: 0;
   width: 40%;
   text-align: left;
 }
-.descTosa{
+.descTosa {
   margin: 0;
   width: 25%;
   text-align: right;
 }
-.tituServ{
+.tituServ {
   margin: 0;
   font-family: "Funny Kid";
   color: #892020;
@@ -262,13 +262,13 @@ nav{
   font-weight: 200;
 }
 
-.menu{
-  background: linear-gradient(to top, rgba(255,0,0,0), #8EB8DE);
+.menu {
+  background: linear-gradient(to top, rgba(255, 0, 0, 0), #8eb8de);
   position: relative;
   height: 25vh;
 }
 
-.navegar{
+.navegar {
   display: block;
 }
 
@@ -342,7 +342,6 @@ nav{
   background-color: brown;
   margin: 0.4rem 0.3rem;
 }
-
 
 .funcionario {
   position: relative;
