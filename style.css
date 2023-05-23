@@ -41,6 +41,9 @@
 
 /* font-family: "Funny Kid"; */
 /* font-family: "Comic Neue", cursive; */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: #f4e7d4;
