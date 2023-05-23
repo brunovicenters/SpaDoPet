@@ -48,6 +48,11 @@ body {
   padding: 0;
 }
 
+nav {
+  display: flex;
+  position: relative;
+}
+
 h2 {
   margin: 0;
 }
@@ -84,88 +89,7 @@ a:visited {
   color: #892020;
 }
 
-#endereco a,
-#endereco a:visited {
-  text-decoration: none;
-  color: black;
-}
-
-nav {
-  display: flex;
-  position: relative;
-}
-
-#ondaQS {
-  top: -26%;
-}
-
-#quemSomos {
-  position: relative;
-}
-
-#fotoBa {
-  justify-content: flex-start;
-}
-
-#fotoWel {
-  justify-content: flex-end;
-}
-
-#infoBa {
-  padding-left: 22%;
-}
-
-#infoWel {
-  padding-right: 22%;
-}
-
-#ondaF {
-  top: -122%;
-}
-
-#localizacao {
-  margin-top: 5%;
-}
-
-#endereco {
-  margin-top: 1%;
-  padding-top: 3%;
-  background-color: #8eb8de;
-  height: 90vh;
-}
-
-#carousel {
-  width: 100%;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-}
-
-#item-1:checked ~ .cards #img-3,
-#item-2:checked ~ .cards #img-1,
-#item-3:checked ~ .cards #img-2 {
-  transform: translatex(-40%) scale(0.8);
-  opacity: 0.4;
-  z-index: 0;
-}
-
-#item-1:checked ~ .cards #img-2,
-#item-2:checked ~ .cards #img-3,
-#item-3:checked ~ .cards #img-1 {
-  transform: translatex(40%) scale(0.8);
-  opacity: 0.4;
-  z-index: 0;
-}
-
-#item-1:checked ~ .cards #img-1,
-#item-2:checked ~ .cards #img-2,
-#item-3:checked ~ .cards #img-3 {
-  transform: translatex(0) scale(1);
-  opacity: 1;
-  z-index: 1;
-}
-
-#imagFundo {
+#imgFundo {
   position: absolute;
   top: -22%;
   width: 100%;
@@ -233,54 +157,88 @@ nav {
   padding-top: 2%;
 }
 
+#ondaQS {
+  top: -26%;
+}
+
+#quemSomos {
+  position: relative;
+}
+
+#fotoBa {
+  justify-content: flex-start;
+}
+
+#fotoWel {
+  justify-content: flex-end;
+}
+
+#infoBa {
+  padding-left: 22%;
+}
+
+#infoWel {
+  padding-right: 22%;
+}
+
+#infoWel h3 {
+  text-align: end;
+}
+
+#localizacao {
+  margin-top: 5%;
+}
+
+#endereco {
+  margin-top: 1%;
+  padding-top: 3%;
+  background-color: #8eb8de;
+  height: 90vh;
+}
+
+#carousel {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+#item-1:checked ~ .cards #img-3,
+#item-2:checked ~ .cards #img-1,
+#item-3:checked ~ .cards #img-2 {
+  transform: translatex(-40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #img-2,
+#item-2:checked ~ .cards #img-3,
+#item-3:checked ~ .cards #img-1 {
+  transform: translatex(40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #img-1,
+#item-2:checked ~ .cards #img-2,
+#item-3:checked ~ .cards #img-3 {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+}
+
+#endereco a,
+#endereco a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+#ondaF {
+  top: -122%;
+}
+
 #gap {
   width: 3%;
-}
-
-.servDisplay {
-  display: flex;
-  gap: 1%;
-}
-
-.imgServ {
-  width: 50%;
-}
-
-.textServ {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex: 2;
-}
-.texTosa {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  flex: 2;
-}
-
-.preco {
-  margin: 0;
-  font-family: "Funny Kid";
-  font-weight: 200;
-}
-.descServ {
-  margin: 0;
-  width: 30%;
-  text-align: left;
-}
-.descTosa {
-  margin: 0;
-  width: 25%;
-  text-align: right;
-}
-.tituServ {
-  margin: 0;
-  font-family: "Funny Kid";
-  color: #892020;
-  font-size: 1.5em;
-  font-weight: 200;
 }
 
 .menu {
@@ -301,11 +259,8 @@ nav {
   margin-bottom: 2%;
 }
 
-.azTurq {
-  color: #4084c1;
-}
-
 .tituloSec {
+  color: #4084c1;
   font-size: 4em;
   font-family: "Comic Neue", cursive;
   font-weight: bold;
@@ -365,6 +320,52 @@ nav {
   margin: 0.4rem 0.3rem; 
 }*/
 
+.servDisplay {
+  display: flex;
+  gap: 1%;
+}
+
+.imgServ {
+  width: 50%;
+}
+
+.textServ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 2;
+}
+.textTosa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  flex: 2;
+}
+
+.preco {
+  margin: 0;
+  font-family: "Funny Kid";
+  font-weight: 200;
+}
+.descServ {
+  margin: 0;
+  width: 30%;
+  text-align: left;
+}
+.descTosa {
+  margin: 0;
+  width: 25%;
+  text-align: right;
+}
+.tituServ {
+  margin: 0;
+  font-family: "Funny Kid";
+  color: #892020;
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
 .funcionario {
   margin-top: 5%;
   display: flex;
@@ -374,6 +375,7 @@ nav {
 }
 
 .nomeFuncionarios {
+  color: #4084c1;
   font-family: "Comic Neue", cursive;
   font-size: 2em;
   font-weight: 700;
