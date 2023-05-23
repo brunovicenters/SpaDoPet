@@ -73,9 +73,21 @@ footer {
 footer > p {
   font-family: "Funny Kid", cursive;
   margin-left: 1%;
-  color: #892020;
+
   font-size: 1.5em;
   font-weight: 200;
+}
+
+footer a,
+a:visited {
+  text-decoration: none;
+  color: #892020;
+}
+
+#endereco a,
+a:visited {
+  text-decoration: none;
+  color: black;
 }
 
 nav {
@@ -98,11 +110,11 @@ nav {
 }
 
 #ondaQS {
-  top: -24%;
+  top: -25%;
 }
 
 #ondaF {
-  top: -26.8vh;
+  top: -122%;
 }
 
 #fotoBa {
@@ -121,7 +133,7 @@ nav {
   margin-top: 1%;
   padding-top: 3%;
   background-color: #8eb8de;
-  height: 100vh;
+  height: 90vh;
 }
 
 #carousel {
@@ -199,16 +211,19 @@ nav {
 }
 
 #imgBanho {
+  flex: 1;
   display: flex;
   justify-content: flex-end;
 }
 
 #imgTosa {
+  flex: 1;
   display: flex;
   justify-content: flex-start;
 }
 
 #imgMassagem {
+  flex: 1;
   display: flex;
   justify-content: flex-end;
 }
@@ -225,7 +240,7 @@ nav {
   width: 3%;
 }
 
-.aba {
+.servDisplay {
   display: flex;
   gap: 1%;
 }
@@ -238,13 +253,14 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex: 2;
 }
 .texTosa {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  width: 80%;
+  flex: 2;
 }
 
 .preco {
@@ -254,7 +270,7 @@ nav {
 }
 .descServ {
   margin: 0;
-  width: 40%;
+  width: 30%;
   text-align: left;
 }
 .descTosa {
