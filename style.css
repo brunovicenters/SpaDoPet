@@ -241,16 +241,6 @@ a:visited {
   width: 3%;
 }
 
-.menu {
-  background: linear-gradient(to top, rgba(255, 0, 0, 0), #8eb8de);
-  position: relative;
-  height: 25vh;
-}
-
-.navegar {
-  display: block;
-}
-
 .sublinhado {
   display: inline-block;
   width: 40%;
@@ -273,6 +263,12 @@ a:visited {
 .ondas {
   position: absolute;
   width: 100%;
+}
+
+.menu {
+  background: linear-gradient(to top, rgba(255, 0, 0, 0), #8eb8de);
+  position: relative;
+  height: 25vh;
 }
 
 .slider {
