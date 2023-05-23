@@ -98,7 +98,7 @@ nav{
 }
 
 #ondaQS {
-  top: -30%;
+  top: -24%;
 }
 
 #ondaF {
@@ -197,6 +197,8 @@ nav{
 }
 #services{
   background-color: #8EB8DE;
+  margin-top: 2%;
+  padding-bottom: 8%;
 }
 #imgBanho{
   display: flex;
@@ -206,6 +208,16 @@ nav{
   display: flex;
   justify-content: flex-start;
 }
+#imgMassagem{
+  display: flex;
+  justify-content: flex-end;
+}
+#massagem{
+  padding-bottom: 2%;
+}
+#banho{
+  padding-top:2%;
+}
 .aba{
   display: flex;
   gap: 1%;
@@ -213,17 +225,20 @@ nav{
 .imgServ{
   width: 50%;
 }
-.imgTosinha{
-  width:200px;
-}
-.imgMassage{
-  width: 200px;
-}
+
 .textServ{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+.texTosa{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-end;
+  width: 80%;
+}
+
 .preco{
   margin: 0;
   font-family: "Funny Kid";
@@ -232,7 +247,12 @@ nav{
 .descServ{
   margin: 0;
   width: 40%;
-  text-align: justify;
+  text-align: left;
+}
+.descTosa{
+  margin: 0;
+  width: 25%;
+  text-align: right;
 }
 .tituServ{
   margin: 0;
