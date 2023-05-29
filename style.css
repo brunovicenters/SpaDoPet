@@ -51,6 +51,12 @@ body {
   padding: 0;
 }
 
+header {
+  background: linear-gradient(to top, rgba(255, 0, 0, 0), #8eb8de);
+  position: relative;
+  height: 25vh;
+}
+
 nav {
   display: flex;
   position: relative;
@@ -140,24 +146,6 @@ a:visited {
   padding-bottom: 8%;
 }
 
-#imgBanho {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-}
-
-#imgTosa {
-  flex: 1;
-  display: flex;
-  justify-content: flex-start;
-}
-
-#imgMassagem {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-}
-
 #massagem {
   padding-bottom: 2%;
 }
@@ -172,14 +160,6 @@ a:visited {
 
 #quemSomos {
   position: relative;
-}
-
-#fotoBa {
-  justify-content: flex-start;
-}
-
-#fotoWel {
-  justify-content: flex-end;
 }
 
 #infoBa {
@@ -274,10 +254,12 @@ a:visited {
   width: 100%;
 }
 
-.menu {
-  background: linear-gradient(to top, rgba(255, 0, 0, 0), #8eb8de);
-  position: relative;
-  height: 25vh;
+.flexStart {
+  justify-content: flex-start;
+}
+
+.flexEnd {
+  justify-content: flex-end;
 }
 
 .slider {
@@ -310,21 +292,6 @@ a:visited {
   width: 100%;
 }
 
-/* .slider .button-holder {
-  position: absolute;
-  bottom: -5%;
-  left: 45%;
-}
-
-.slider .button-holder .dots {
-  display: inline-block;
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  background-color: brown;
-  margin: 0.4rem 0.3rem; 
-}*/
-
 .servDisplay {
   display: flex;
   gap: 1%;
@@ -332,6 +299,11 @@ a:visited {
 
 .imgServ {
   width: 50%;
+}
+
+.containerImg {
+  flex: 1;
+  display: flex;
 }
 
 .textServ {
@@ -352,6 +324,7 @@ a:visited {
   margin: 0;
   font-family: "Funny Kid";
   font-weight: 200;
+  font-size: 1.5em;
 }
 .descServ {
   margin: 0;
@@ -367,7 +340,7 @@ a:visited {
   margin: 0;
   font-family: "Funny Kid";
   color: #892020;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 200;
 }
 

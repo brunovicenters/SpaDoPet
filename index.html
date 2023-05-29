@@ -16,17 +16,15 @@
   <body>
     <!-- Header/Menu -->
     <header>
-      <div class="menu">
-        <img src="assets/menuBG.webp" alt="Fundo do menu" id="imgFundo" />
-        <img src="assets/logoText.webp" alt="Logo em Letras" id="logotext" />
-        <nav>
-          <ul id="mainMenu">
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#quemSomos">Quem somos</a></li>
-            <li><a href="#localizacao">Localização</a></li>
-          </ul>
-        </nav>
-      </div>
+      <img src="assets/menuBG.webp" alt="Fundo do menu" id="imgFundo" />
+      <img src="assets/logoText.webp" alt="Logo em Letras" id="logotext" />
+      <nav>
+        <ul id="mainMenu">
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#quemSomos">Quem somos</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+        </ul>
+      </nav>
     </header>
     <!-- Banner -->
     <section class="slider">
@@ -46,7 +44,7 @@
       </div>
       <div id="services">
         <div class="servDisplay" id="banho">
-          <div id="imgBanho">
+          <div class="containerImg flexEnd">
             <img
               src="assets/banho.webp"
               alt="Imagem de um cachorro tomando banho"
@@ -70,7 +68,7 @@
               de pets!
             </p>
           </div>
-          <div id="imgTosa">
+          <div class="containerImg flexStart">
             <img
               src="assets/tosa.webp"
               alt="Imagem de um cachorro sendo tosado"
@@ -78,7 +76,7 @@
           </div>
         </div>
         <div class="servDisplay" id="massagem">
-          <div id="imgMassagem">
+          <div class="containerImg flexEnd">
             <img
               src="assets/massagem.webp"
               alt="Imagem de um cachorro sendo massageado"
@@ -116,13 +114,19 @@
             cuidado e carinho do mundo.
           </p>
         </div>
-        <div class="fotoFuncionarios" id="fotoBa">
-          <img class="imgFunc" src="assets/barbara.webp" />
+        <div class="fotoFuncionarios flexStart">
+          <img
+            class="imgFunc"
+            src="assets/barbara.webp"
+            alt="Foto da dona do estabelecimento" />
         </div>
       </section>
       <section class="funcionario">
-        <div class="fotoFuncionarios" id="fotoWel">
-          <img class="imgFunc" src="assets/welton.webp" />
+        <div class="fotoFuncionarios flexEnd">
+          <img
+            class="imgFunc"
+            src="assets/welton.webp"
+            alt="Foto do dono do estabelecimento" />
         </div>
         <div class="infoFunc" id="infoWel">
           <h3 class="nomeFuncionarios">Welton</h3>
@@ -141,41 +145,39 @@
         <div class="sublinhado"></div>
       </div>
       <div id="endereco">
-        <div>
-          <section id="carousel">
-            <div class="containerCar">
-              <input type="radio" name="slider" id="item-1" checked />
-              <input type="radio" name="slider" id="item-2" />
-              <input type="radio" name="slider" id="item-3" />
-              <div class="cards">
-                <label class="card" for="item-1" id="img-1">
-                  <img
-                    src="assets/frenteLoja.webp"
-                    alt="Imagem da frente da loja"
-                    class="imgCar" />
-                </label>
-                <label class="card" for="item-2" id="img-2">
-                  <img
-                    src="assets/banhoLoja.webp"
-                    alt="Imagem da área de banho da loja"
-                    class="imgCar" />
-                </label>
-                <label class="card" for="item-3" id="img-3">
-                  <img
-                    src="assets/interiorLoja.webp"
-                    alt="Imagem da área da tosa da loja"
-                    class="imgCar" />
-                </label>
-              </div>
+        <section id="carousel">
+          <div class="containerCar">
+            <input type="radio" name="slider" id="item-1" checked />
+            <input type="radio" name="slider" id="item-2" />
+            <input type="radio" name="slider" id="item-3" />
+            <div class="cards">
+              <label class="card" for="item-1" id="img-1">
+                <img
+                  src="assets/frenteLoja.webp"
+                  alt="Imagem da frente da loja"
+                  class="imgCar" />
+              </label>
+              <label class="card" for="item-2" id="img-2">
+                <img
+                  src="assets/banhoLoja.webp"
+                  alt="Imagem da área de banho da loja"
+                  class="imgCar" />
+              </label>
+              <label class="card" for="item-3" id="img-3">
+                <img
+                  src="assets/interiorLoja.webp"
+                  alt="Imagem da área da tosa da loja"
+                  class="imgCar" />
+              </label>
             </div>
-          </section>
-          <div class="centralizar">
-            <p>
-              <a href="https://goo.gl/maps/gABuqura4tCmG1KG9" target="_blank">
-                Avenida Interlagos&#44; 871 &#45; 04661&#45;100
-              </a>
-            </p>
           </div>
+        </section>
+        <div class="centralizar">
+          <p>
+            <a href="https://goo.gl/maps/gABuqura4tCmG1KG9" target="_blank">
+              Avenida Interlagos&#44; 871 &#45; 04661&#45;100
+            </a>
+          </p>
         </div>
       </div>
     </section>
