@@ -9,7 +9,7 @@ como avaliação para o 1º Semestre do Tecnólogo em Sistemas para Internet.
 
 Inspirado em uma empresa fictícia criada pelo grupo, formado por [Bruno Vicente](https://github.com/brunovicenters),
 [Sara Justino](https://github.com/SaraJus) e [Iggor Manfio](https://github.com/iggor-manfio), onde a proposta era desenvolver
-um site estático fazendo uso apenas de HTML5 e CSS3.
+um site estático fazendo uso apenas de HTML5, CSS3 e Bootstrap.
 
 ## Assets
 
@@ -17,7 +17,7 @@ Os desenhos foram todos criados pelo grupo e as fotos foram retiradas da Interne
 
 ## Fontes de texto
 
-Foram utilizadas duas fontes:
+Foram utilizadas duas fontes de texto:
 
 - [Funny Kid](https://www.dafont.com/funnykid.font): Disponibilizada para uso pessoal, sem fins comerciais.
 - [Comic Neue](https://fonts.google.com/specimen/Comic+Neue): Disponibilizada gratuitamente através do Google Fonts.
