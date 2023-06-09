@@ -53,16 +53,17 @@ footer {
   align-items: center;
 }
 
-footer > p {
+footer a {
   font-family: "Funny Kid", cursive;
   margin-left: 1%;
-
+  text-decoration: none;
+  color: #892020;
   font-size: 1.5em;
   font-weight: 200;
 }
 
-footer a,
-a:visited {
+a:visited,
+a:hover {
   text-decoration: none;
   color: #892020;
 }
@@ -146,7 +147,7 @@ a:visited {
   margin-top: 1%;
   padding-top: 3%;
   background-color: #8eb8de;
-  height: 80vh;
+  height: 95vh;
 }
 
 #carousel {
@@ -181,7 +182,8 @@ a:visited {
 }
 
 #endereco a,
-#endereco a:visited {
+#endereco a:visited,
+#endereco a:hover {
   text-decoration: none;
   color: black;
 }
@@ -356,4 +358,10 @@ a:visited {
 
 .logoSocial {
   width: 4%;
+}
+
+.textoFooter {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
